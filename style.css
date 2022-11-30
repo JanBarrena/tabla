@@ -1,0 +1,126 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(90deg, #238f8b, #2c6a82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.center tbody tr:nth-child(odd) {
+	background-color: #00ffea;
+	color: #000000;
+  }
+  
+.center tbody tr:nth-child(even) {
+	background-color: #158eff;
+  }
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+}
+
+
+.td {
+	text-align: center;
+	padding: 15px;
+	background-color: rgb(151, 151, 151);
+	color: #fff;
+}
+th {
+	text-align: left;
+	background-color: #ffffff ;
+}
+
+thead th { 
+		background-color: #858383 ;
+}
+
+
+.mp04{
+	background-color: rgb(194, 78, 78);
+	text-align: center;
+}
+
+.mp06 {
+	background-color: rgb(111, 187, 24);
+	text-align: center;
+}
+
+.mp07 {
+	background-color: rgb(24, 168, 187);
+	text-align: center;
+}
+
+.mp08 {
+	background-color: rgb(187, 184, 24);
+	text-align: center;
+}
+
+
+.mp10 {
+	background-color: rgb(187, 24, 146);
+	text-align: center;
+}
+
+.mp12 {
+	background-color: rgb(211, 125, 54);
+	text-align: center;
+}
+
+img {
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+.center {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+ color: #fff;
+ text-align: center;
+ font-size: 60px;
+}
+
+h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;	
+}
+
+h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+
+caption {
+    font-family: "Rock Salt", cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: rgb(255, 254, 254);
+    text-align: left;
+    letter-spacing: 1px;
+  }
